@@ -12,6 +12,36 @@ body {
     margin: 0 auto;
 }
 
+/* ----------
+navigation style
+------- */
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.navigation-button a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navigation-button i {
+    margin-left: 10px;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 /* ----------------
 top banner style
 ------------ */
