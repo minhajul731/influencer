@@ -94,3 +94,15 @@ top banner style
     position: absolute;
     left: 58%;
 }
+
+/* -------------
+brands style
+---------- */
+.brands-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands hr {
+    border: 1px solid #dadada89;
+}
