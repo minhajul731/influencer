@@ -130,6 +130,7 @@ popular collection
     grid-row-gap: 30px;
     grid-column-gap: 30px;
     justify-items: center;
+    margin-bottom: 60px;
 }
 
 .card {
@@ -182,4 +183,11 @@ popular collection
     padding: 10px 15px;
     border-radius: 10px;
     margin-left: 65%;
+}
+
+.see-more {
+    color: #E02C6D;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 100px;
 }
