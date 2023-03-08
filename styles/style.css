@@ -125,6 +125,11 @@ brands style
 /* ------------
 popular collection
 ----------- */
+.popular-collection-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .popular-collection {
     margin-top: 100px;
     margin-bottom: 150px;
