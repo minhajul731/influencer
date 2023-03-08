@@ -23,10 +23,12 @@ navigation style
     margin: 0 auto;
 }
 
+
 .header-section h3 {
     font-weight: 700;
     font-size: 24px;
     color: #3A3A3A;
+    width: 100%;
 }
 
 .navigation-button a {
@@ -321,4 +323,134 @@ footer style
     background-color: rgb(32, 32, 32);
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~
+responsive style
+~~~~~~~~~~~~~~~~~~ */
+/* -----------------
+mobile device 
+------------*/
+
+@media only screen and (max-width: 576px) {
+    .menu-text-title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu-text-title i {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .fa-bars,
+    .fa-cart-shopping {
+        color: #E02C6D;
+    }
+
+    .navigation-button {
+        display: none;
+    }
+
+    .top-banner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #top-banner-camera {
+        position: relative;
+        z-index: 1;
+        margin-left: -16%;
+        width: 100%;
+    }
+
+    #circle-design {
+        position: absolute;
+        left: 23%;
+        width: 39%;
+    }
+
+    .top-banner-info h1 {
+        color: #3A3A3A;
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .top-banner-info p {
+        font-size: 1em;
+        font-weight: 500;
+        width: 148%;
+    }
+
+    .pree-book-button {
+        font-size: 0.5em;
+    }
+
+    .brands-logo {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .brands-logo img {
+        width: 25%;
+    }
+
+    .popular-collection-cards {
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        justify-items: center;
+        margin-bottom: 60px; */
+    }
+
+    .card {
+        padding: 10px 0px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .feature-product {
+        flex-direction: column-reverse;
+    }
+
+    .feature-product img {
+        width: 80%;
+        margin-top: 43px;
+        margin-bottom: 60px;
+    }
+
+
+    .feature-product h3 {
+        color: #0A0826;
+        font-weight: 700;
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .feature-product p {
+        width: 501px;
+        height: 88px;
+        color: #6C6C6C;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    .feature-product a {
+        margin-left: 21%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .fa-bars,
+    .cart {
+        display: none;
+    }
 }
