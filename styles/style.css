@@ -8,8 +8,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Poppins', sans-serif;
-    width: 90%;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 /* ----------
@@ -19,6 +19,8 @@ navigation style
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .header-section h3 {
@@ -49,6 +51,8 @@ top banner style
     margin-top: 10px;
     display: flex;
     margin-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .top-banner-info {
@@ -99,6 +103,16 @@ top banner style
 /* -------------
 brands style
 ---------- */
+.brand-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.brands {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .brands-logo {
     display: flex;
     justify-content: space-between;
@@ -114,6 +128,8 @@ popular collection
 .popular-collection {
     margin-top: 100px;
     margin-bottom: 150px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .popular-collection-title {
@@ -197,7 +213,8 @@ feature product style
 .feature-product {
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .feature-product img {
@@ -227,4 +244,34 @@ feature product style
     font-size: 16px;
     background-color: #E02C6D;
     padding: 10px 15px;
+}
+
+/*------------
+footer style
+--------- */
+.footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-social-icon i {
+    color: #FFFFFF;
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 20px;
 }
