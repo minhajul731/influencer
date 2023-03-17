@@ -334,7 +334,7 @@ responsive style
 mobile device 
 ------------*/
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .menu-text-title {
         display: flex;
         justify-content: space-around;
@@ -447,7 +447,7 @@ mobile device
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 579px) and (max-width: 1080px) {
 
     .fa-bars,
     .cart {
